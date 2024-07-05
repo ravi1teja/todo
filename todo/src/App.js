@@ -35,7 +35,7 @@ function App() {
   return (
     <div>
       <input type='text' onChange={handleChange} value={task}></input>
-      <button onClick={saveTask}>Submit</button>
+      <button onClick={saveTask}>Submit button</button>
       <ul>
         {todo.map(el=> 
         <li key={el.id}>
